@@ -2,7 +2,7 @@ import sqlite3
 
 connection = sqlite3.connect("title.db")
 cursor = connection.cursor()
-id = (4, 5)
+id = (6,7)
 cursor.execute(
     """
         DELETE FROM films
